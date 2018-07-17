@@ -5,14 +5,15 @@ import org.o7planning.spring.lang.Language;
 // English
 public class English  implements Language {
  
- @Override
+ //@Override
  public String getGreeting() {
      return "Hello";
  }
  
- @Override
+ //@Override
  public String getBye() {
      return "Bye bye";
  }
+ 
  
 }

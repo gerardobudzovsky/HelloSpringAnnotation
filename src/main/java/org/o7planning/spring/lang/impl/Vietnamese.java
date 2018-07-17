@@ -5,12 +5,12 @@ import org.o7planning.spring.lang.Language;
 // Vietnamese
 public class Vietnamese implements Language {
  
-   @Override
+   //@Override
    public String getGreeting() {
        return "Xin Chao";
    }
  
-   @Override
+   //@Override
    public String getBye() {
        return "Tam Biet";
    }
